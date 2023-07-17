@@ -1,4 +1,3 @@
-<font size = 6>
 # 这是我的python学习记录
 # 是的，当你在创建仓库时选择了创建一个 README.md 文件，Git 会自动在远程仓库中创建这个文件并初始化提交。当你尝试拉取远程仓库时，由于本地仓库没有该文件的历史(commit)，Git 会认为两者是不相关的分支(histories unrelated)，从而拒绝合并。
 # 如果你想解决这个问题，可以选择其中一种方式：
@@ -10,4 +9,4 @@
 # git pull origin master --allow-unrelated-histories
 # 加上 --allow-unrelated-histories 参数可以允许合并没有共同历史的分支。这种方式可用于合并远程仓库中已存在的 README.md 文件。
 # 无论采用哪种方式，都需要小心处理合并过程中可能出现的冲突，并确保你理解所做的更改。在合并前最好备份好重要的文件或数据，以防不可预料的问题发生。 
-</font>
+
