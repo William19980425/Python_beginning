@@ -40,3 +40,16 @@ if 'erin' not in favorite_languages.keys():
 print("====================================分割线7====================================")    
 for language in set(favorite_languages.values()): #为剔除重复项，可使用集合set()
     print(language.title())
+
+print("====================================分割线7====================================")    
+favorite_languages = {
+    'jen':['python','rust'],
+    'sarah':['c'],
+    'edward':['rust','go'],
+    'phil':['python','haskell'],
+    'eren':['rust','ruby']
+}    
+for name,languages in favorite_languages.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"{language.title()}")
